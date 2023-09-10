@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  h2 {
+    @apply text-xl font-medium;
+  }
+  input,
+  textarea {
+    @apply border-2 p-2 rounded-lg w-full focus:border-indigo-500 focus:outline-none;
+  }
+  button {
+    @apply disabled:bg-slate-400 bg-slate-950 text-white p-2 rounded-lg w-full;
+  }
+}
